@@ -1,0 +1,15 @@
+POST http://localhost:3333/courses
+Content-Type: application/json
+
+{
+    "title": "Curso de C#"
+}
+
+###
+
+GET http://localhost:3333/courses
+
+###
+
+GET http://localhost:3333/courses/9e6e1bac-894a-4dee-8ef9-a9e8b85f87d5
+
