@@ -12,14 +12,15 @@
       "ESNext.Promise"
     ],
     "module": "ESNext",
-    "target": "es2024",
-    "target": "ESNext",
-    "moduleResolution": "NodeNext",
+    "target": "es2024", // Mantido como es2024
+    "moduleResolution": "NodeNext", // Corrigido para NodeNext
     "esModuleInterop": true,
 
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+
     "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "moduleResolution": "node16"
+    "skipLibCheck": true
+    // Removidas as duplicatas: "esModuleInterop" e a segunda "moduleResolution"
   }
 }
