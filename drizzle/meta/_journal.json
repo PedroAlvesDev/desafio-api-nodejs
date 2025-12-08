@@ -50,6 +50,34 @@
       "when": 1765135757905,
       "tag": "0006_mute_ikaris",
       "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1765153105087,
+      "tag": "0007_romantic_ultimo",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1765153190290,
+      "tag": "0008_nice_rage",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1765153321387,
+      "tag": "0009_romantic_reaper",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1765153730735,
+      "tag": "0010_burly_vance_astro",
+      "breakpoints": true
     }
   ]
 }
