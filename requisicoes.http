@@ -1,8 +1,9 @@
 POST http://localhost:3333/courses
 Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkMzVjMTk4Ny03NmM5LTRhOTYtYTEzMS1mMTdkMjc1YmE0NmUiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTc2NTE2MjA1NX0.v8msleq8aqFJsN3WGO-B9-OpTNVmx9ki-dB0K4yeB7E
 
 {
-    "title": "Curso de Cobol"
+    "title": "Curso de React"
 }
 
 ###
@@ -11,4 +12,15 @@ GET http://localhost:3333/courses?orderBy=title
 
 ###
 
-GET http://localhost:3333/courses/66ddf6fa-f4fe-4362-99ee-44c12fdb3bdd
+GET http://localhost:3333/courses/722ceaf8-e15a-46e3-b776-4569d023e809
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkMzVjMTk4Ny03NmM5LTRhOTYtYTEzMS1mMTdkMjc1YmE0NmUiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTc2NTE2MjA1NX0.v8msleq8aqFJsN3WGO-B9-OpTNVmx9ki-dB0K4yeB7E
+
+###
+
+POST http://localhost:3333/sessions
+Content-Type: application/json
+
+{
+    "email": "Heitor_Batista@hotmail.com",
+    "password": "123456"
+}
