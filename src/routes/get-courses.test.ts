@@ -22,7 +22,7 @@ test('get courses', async () => {
             {
                 id: expect.any(String),
                 title: titleId,
-                enrollments: 0,
+                enrollments: 0
             }
         ]
     })
